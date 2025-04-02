@@ -68,21 +68,43 @@ nav{
     height: 40vh;
     border-radius: 14px;
 }
+.more{
+    background-color: black;
+    height: auto;
+    padding: 10px 80px;
+    color: white;
+}
 .info ul{
-    display: grid;
-    grid-row: 1fr 1fr 1fr 1fr ;
+    list-style: none;
+    display: flex;
+    gap: 9px;
+    padding-top: 15px;
 }
 .info ul li{
-    width: max-content;
-    height: 30vh;
-    background-color: chartreuse;
+    height: 33vh;
+    width: 23vw;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(128, 128, 128, 0.119);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 2px;
 }
-
-
-
-
-
-
+.info div{
+    padding-left: 8px;
+}
+.info p{
+    color: gray;
+    padding-top: 4px;
+}
+.info img{
+    height: 44px;
+    align-self: flex-end;
+    padding-right: 14px;
+    padding-top: 12px;
+}
 .questions{
     background-color: black;
     color: white;
@@ -154,19 +176,6 @@ nav{
     font-size:x-large;
     font-weight: bolder;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 footer{
     background-color: black;
     height: 70vh;
