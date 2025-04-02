@@ -1,3 +1,147 @@
-.body{
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
     font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+header{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.8000) 0.000%, rgba(0, 0, 0, 0.7889) 8.333%, rgba(0, 0, 0, 0.7556) 16.67%, rgba(0, 0, 0, 0.7000) 25.00%, rgba(0, 0, 0, 0.6222) 33.33%, rgba(0, 0, 0, 0.5222) 41.67%, rgba(0, 0, 0, 0.4000) 50.00%, rgba(0, 0, 0, 0.2778) 58.33%, rgba(0, 0, 0, 0.1778) 66.67%, rgba(0, 0, 0, 0.1000) 75.00%, rgba(0, 0, 0, 0.04444) 83.33%, rgba(0, 0, 0, 0.01111) 91.67%, rgba(0, 0, 0, 0.000) 100.0%);
+    height: 20vh;
+}
+.logo{
+    width: 12vw;
+    padding: 18px 30px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+}
+.nav-list{
+    height: 10vh;
+    width: 80vw;
+}
+.nav-list ul{
+    display: flex;
+    flex-direction: row;
+    float: inline-end;
+    padding-top: 18px;
+    
+}
+.nav-list ul li{
+    list-style: none;
+    padding: 2px;
+    justify-items: center;
+}
+.btn{
+    height: 30px;
+    width: auto;
+    padding: 10px;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.btn img{
+    padding: 3px;
+}
+.slide{
+    margin: 2px 28px;
+    width: 95vw;
+    height: 70vh;
+    background-color: aqua;
+    z-index: 9999;
+    border-radius: 20px;
+}
+.slide.img-one img{
+    width: 70vw;
+    height: 10vh;
+}
+.movie ul{
+    display: flex;
+    list-style: none;
+}
+.movie ul li{
+    background-color: blue;
+    width: 12vw;
+    height: 40vh;
+    border-radius: 14px;
+}
+.info ul{
+    display: grid;
+    grid-row: 1fr 1fr 1fr 1fr ;
+}
+.info ul li{
+    width: max-content;
+    height: 30vh;
+    background-color: chartreuse;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: black;
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: flex-start;
+    color: rgba(255, 255, 255, 0.7);
+    padding: 30px 0;
+}
+.footer-class{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    width: 80%;
+    padding: 0px 80px;
+}
+footer ul {
+    list-style: none;
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+footer ul li{
+    text-decoration: underline;
+}
+.call{
+    padding: 30px 80px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.call span{
+    text-decoration: underline;
+}
+.footButton{
+    margin: 0px 80px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    color: white;
+    background-color: black;
+    border: 1px solid gray;
+}
+.last{
+    padding: 10px 80px;
+    font-size: small;
 }
