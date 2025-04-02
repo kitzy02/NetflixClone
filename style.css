@@ -83,7 +83,77 @@ nav{
 
 
 
-
+.questions{
+    background-color: black;
+    color: white;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start ;
+    justify-content: center;
+    padding: 20px 80px;
+    overflow-x: hidden;
+}
+.que{
+    padding: 10px 0;
+}
+.que ul{
+    list-style: none;
+}
+.que ul li{
+    background-color: rgba(255, 255, 255, 0.1);
+    height: 70px;
+    width: 85vw;
+    text-align:left;
+    border: 2px solid rgba(128, 128, 128, 0.119);
+    border-radius: 13px;
+    margin: 6px;
+    font-weight: 500;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    
+}
+.que li img{
+    height: 22px;
+    padding-right: 18px;
+}
+.mail {
+   text-align: center;
+   padding: 15px 20vw;
+}
+.email-button-class{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 20px;
+}
+.email-button-class input{
+    width: 25vw;
+    height: 50px;
+    border-radius: 40px;
+    text-align:left;
+    padding:  0px 12px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid gray;
+    margin: 0 6px;
+    font-weight: bold;
+    color: white;
+}
+.started{
+    background-color: red;
+    color: white;
+    width: 18vw;
+    height: 50px;
+    border-radius: 40px;
+    text-align:left;
+    padding:  0 12px;
+    border: 1px solid red;
+    font-size:x-large;
+    font-weight: bolder;
+}
 
 
 
@@ -107,6 +177,7 @@ footer{
     align-items: flex-start;
     color: rgba(255, 255, 255, 0.7);
     padding: 30px 0;
+    font-size: 21px;
 }
 .footer-class{
     display: grid;
