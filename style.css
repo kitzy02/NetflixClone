@@ -114,7 +114,7 @@ main{
     align-items:flex-start;
     color: white;
     text-align: left;
-    z-index: 5;
+    z-index: 45;
 }
 .main-section h1{
     font-size: 56px;
@@ -135,10 +135,21 @@ main{
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    gap: 8px;
 }
 .mail-top  input{
-    padding: 0px;
+    width: 25vw;
+    height: 50px;
+    border-radius: 40px;
+    text-align: left;
+    padding: 0px 12px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid gray;
+    margin: 10px 0px;
+    font-weight: bold;
+    color: white;
 }
+
 .arrow {
     border: solid white;
     border-width: 0 3px 3px 0;
@@ -160,7 +171,7 @@ main{
     display: none;
 }
 .trending{
-    padding: 5px 0;
+    padding: 65px 0;
     position: relative;
     color: white;
     background: black;
@@ -192,12 +203,15 @@ main{
 .number{
     position: absolute;
     top: 5px;
-    left:-15px;
+    left:-12px;
     font-size: 3.8rem;
     font-weight: 900;
     color: rgba(0, 0, 0, 0.8);
     -webkit-text-stroke: 2px rgb(255, 255, 255);
     text-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+    overflow: visible;
+    z-index: 2;
+    width: auto;
 }
 .movie ul {
     display: flex;
@@ -211,6 +225,8 @@ main{
 .movie ul li{
     position: relative;
     flex-shrink: 0;
+    padding-left: 10px; 
+    margin-left: 10px;
 }
 .movie ul li img{
     width: 12vw;
